@@ -22,7 +22,7 @@ __all__ = ["MinMaxScaler","pd","train_test_split","StandardScaler","torch","nn",
 
 config = {
 
-    "data_path" :"/Users/arman/Documents/machin learning/Model Architectures/deep feed forward_nn /Online News Popularity_regression/data/OnlineNewsPopularity.csv",
+    "data_path" :"file.pth",
     "batch_size" :128,
     "data_normalization_method" :"z_score",
     "train_size" :0.7,

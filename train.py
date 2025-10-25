@@ -26,7 +26,7 @@ def train(model,epochs,train_dl,valid_dl,loss_function,optimizer,scheduler,early
 
 
     if continue_training == True :
-        model.load_state_dict(torch.load("/Users/arman/Documents/machin learning/Model Architectures/deep feed forward_nn /Online News Popularity_regression/saved_w.pth"))
+        model.load_state_dict(torch.load("file.pth"))
 
         print("✅ Loaded previous weights")
 
