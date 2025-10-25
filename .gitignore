@@ -1,0 +1,29 @@
+# System files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# WandB logs and artifacts
+wandb/
+
+# Datasets
+data/
+*.csv
+*.pkl
+*.h5
+
+# Virtual environments
+venv/
+env/
+
+# Logs and temporary files
+*.log
+
+# Other common ML files
+*.pt
+*.pth
